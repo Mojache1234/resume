@@ -1,0 +1,9 @@
+h1 {
+  font: cursive; }
+
+.outer {
+  text-align: left; }
+  .outer .inner {
+    color: #FF0000; }
+
+/*# sourceMappingURL=index.css.map */

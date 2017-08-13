@@ -1,0 +1,10 @@
+@import './header.scss';
+
+$myred: #FF0000;
+
+.outer {
+    text-align: left;
+    .inner {
+        color: $myred;
+    }
+}

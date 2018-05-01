@@ -1,9 +1,37 @@
-h1 {
-  font: cursive; }
+.contact span:nth-child(2n) {
+  float: right; }
 
-.outer {
-  text-align: left; }
-  .outer .inner {
-    color: #FF0000; }
+@media print {
+  @page {
+    margin: 0 -6cm; }
+  html {
+    margin: 0 6cm; }
+
+  body {
+    margin: 0.25in; } }
+.name {
+  font-size: 25px; }
+
+* {
+  font-family: 'Nunito', san-serif;
+  margin: 0 0 0 0; }
+
+body > div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  margin-top: 5px; }
+
+.name {
+  font-size: 30px; }
+
+hr {
+  height: 1px;
+  border: 0px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+  border-radius: 0 0 12px 12px; }
+
+ul {
+  list-style: circle; }
 
 /*# sourceMappingURL=index.css.map */
